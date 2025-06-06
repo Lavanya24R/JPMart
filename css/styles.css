@@ -63,7 +63,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-.nav-item:hover {
+.nav-item:hover:not(.Categories) {
     background-color: #6B4C3A;
     border-radius: 5px;
     transform: translateZ(+5px);
@@ -125,4 +125,43 @@ header{
         height: 70px;
 
     }
+
+    
+   
 }
+
+
+.Categories
+    {
+
+        display:flex;
+        flex-direction: column;
+        color: #E4E1E0;
+        width: 100px;
+        height: 80px;
+        
+       
+
+    }
+
+    .Categories div{
+
+
+        background-color:#6B4C3A;
+    }
+
+    #basic-dropdown
+    {
+
+        display: flex;
+        align-self: center;
+        width:100px;
+        height:45%;
+        background-color: #493628;
+        color:#E4E1E0;
+        font-family: "Funnel Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
